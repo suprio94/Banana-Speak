@@ -1,44 +1,40 @@
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>banana talk</title>
-            <style>
-                textarea{
-                    margin: 1rem;
-                    padding: 1rem;
-                    height: 40%;
-                    width: 80%;
-                    display: block;
-                    border: 1px solid black;
-                }
-                button{
-                    margin: 1rem;
-                    padding: 1rem; 
-                }
-                title{
-                    text-align: center;
-                    padding: 0rem 1rem ;
-                    background-color: goldenrod;
-                }
-            </style>
-        </head>
-        <body>
-            <h1>talk bananaaaaa</h1>
-            <textarea id="txt_input" 
-            placeholder="Put Your English Text here to covert into Banana Language!!"
-            name="" id="" cols="30" rows="10"></textarea>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minion Speaks</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
 
+            <div style="font-size: 2rem; padding: 1rem;" >banana talk</div>
+        </nav>
+        
+        <main>
+        
+            <textarea id="inputText" placeholder="Put your message here which you want to convert to banana language"></textarea>
 
-        <button id="btn_Translate">Translate</button>
-    <div>
-        Output will come here 👇
-    </div>
-        <div>
-            <textarea name="OutputText" id="" cols="30" rows="10"></textarea>
-        </div>
+        <button id="btn_Trans">Translate to Banana</button>
+        
+        <div>Output text will appear here 👇 </div>
+        
+        <div id="outputText" style="padding: 1rem; font-size: large;"></div>
 
-        <script src="script.js" type="text/javascript"></script>
-        </body>
-        </html>
+    </main>
+
+        <footer >
+        
+    
+        <img src="Images/minion.jpg" height="100px"
+        style="mix-blend-mode: multiply;" alt=""> 
+    
+        
+        <p> Did you know that the gibberish the minions say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p>
+        </footer>
+
+        <script src="script.js" type="text/javascript" ></script>
+
+    </body>
+    </html>
